@@ -1,0 +1,48 @@
+.header{
+    background: var(--background);
+    border-bottom: 1px solid var(--borda);
+
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 957px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header .container logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.pesquisar{
+    background: var(--background-principal);
+    border-radius: 3px;
+    padding: 3px 10px;
+    border: 1px solid var(--borda);
+    display: flex;
+    align-items: center;
+}
+
+.pesquisar input{
+    font-size: 14px;
+    padding: 0px 7px;
+}
+
+.menuIcons{
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.menuIcons .imgUser{
+    width: 26px;
+    height: 26px;
+    border-radius: 50% ;
+}
