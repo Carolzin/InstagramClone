@@ -3,11 +3,9 @@
 
     grid-template-areas: "firstColumn secondColumn";
     grid-template-columns: 614px 293px;
-
     grid-gap: 35px;
-
     max-width: 957px;
-    margin: 100px auto;
+    margin: 30px auto;
 }
 
 .box {
