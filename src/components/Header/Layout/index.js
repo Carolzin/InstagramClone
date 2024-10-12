@@ -1,4 +1,6 @@
+import { Post } from '../../Post'
 import { Story } from '../../Story'
+import { Suggestion } from '../../Suggestion'
 import './styleLayout.css'
 export function Layout() {
 
@@ -13,14 +15,14 @@ export function Layout() {
                     </div>
 
                     <div className="box" style={{margin: "30px 0"}} >
-                        post
+                        <Post />
                     </div>
                 </div>
                
 
                 <div style={{ gridArea: "secondColumn" }} >
                     <div className="suggestionBox" >
-                        sugestao
+                        <Suggestion />
                     </div>
                 </div>
 

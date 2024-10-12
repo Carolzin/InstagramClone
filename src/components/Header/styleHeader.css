@@ -2,6 +2,10 @@
     background: var(--background);
     border-bottom: 1px solid var(--borda);
 
+    position: fixed;
+    top: 0;
+    width: 100%;
+
 }
 
 .header .container{

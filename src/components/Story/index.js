@@ -8,7 +8,7 @@ export function Story() {
                 <div>
                     <img className="imagemStory" src="https://www.eventim.com.br/obj/media/BR-eventim/galery/222x222/e/ed-sheeran-222x222.jpg" alt="Ed Sheeran" />
                 </div>
-                <span>Sheeran</span>
+                <span>Teddys</span>
             </div>
 
             <div className="userElemento">
@@ -22,14 +22,14 @@ export function Story() {
                 <div>
                     <img className="imagemStory" src="https://i.scdn.co/image/ab67616100005174e03a98785f3658f0b6461ec4" alt="Olivia Rodrigo" />
                 </div>
-                <span>Olivia Rod</span>
+                <span>Olivia </span>
             </div>
 
             <div className="userElemento">
                 <div>
                     <img className="imagemStory" src="https://64.media.tumblr.com/46bcc8e2b764766687bd36129a669095/8a5f1c372a6ff4fc-b3/s400x600/96b1b4b978a28729c4212b863bb31589b18c29a0.jpg" alt="Harry Styles" />
                 </div>
-                <span>Harry Sty</span>
+                <span>Harry</span>
             </div>
 
             <div className="userElemento">
@@ -50,7 +50,7 @@ export function Story() {
                 <div>
                     <img className="imagemStory" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRvpAeQLx0Fq9hK4bAOdIbB2vVPSH2-bnNjA&s" alt="Camila Cabello" />
                 </div>
-                <span>Camila 5H</span>
+                <span>Camila</span>
             </div>
 
             <div className="userElemento">

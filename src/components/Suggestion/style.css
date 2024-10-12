@@ -1,0 +1,117 @@
+.container-suggestion {
+    margin-top: 18px;
+}
+
+.header-suggestion {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-suggestion img {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.user-infos-suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex: 1;
+}
+
+.user-infos-suggestion .infos span {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.user-infos-suggestion .infos p {
+    font-size: 13px;
+    color: var(--segundario);
+}
+
+.user-infos-suggestion .switch {
+    font-weight: 500;
+    color: var(--quarteario);
+    cursor: pointer;
+}
+
+.header-main-suggestion  {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 20px 0 10px 0;
+}
+
+.header-main-suggestion p {
+    font-size: 15px;
+    color: var(--secundario);
+
+    font-weight: 500;
+
+}
+
+.header-main-suggestion span {
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.user-suggestion {
+    margin-top: 5px;
+}
+
+.infos-suggestion {
+    margin: 15px 0 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.infos-suggestion img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.info-suggestion {
+    flex: 1;
+}
+
+.info-suggestion span {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.info-suggestion p {
+    font-size: 13px;
+    color: var(--secundario);
+    margin-top: 3px;
+}
+
+.infos-suggestion .follow {
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--quarteario);
+    font-weight: 500;
+}
+
+.footer-suggestion {
+    margin-top: 25px;
+
+    flex: 1;
+}
+
+.footer-suggestion p {
+    font-size: 12px;
+    color: var(--terceario);
+
+    margin-bottom: 15px;
+    cursor: pointer;
+}
