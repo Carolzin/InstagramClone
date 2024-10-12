@@ -44,7 +44,7 @@ export function Post() {
                 <div key={post.id}>
                     <header className="headerpost">
                         <div className="infosPost">
-                            <img className="imgheader" src={post.profileImage} alt={post.user} /> {/* Use a nova propriedade aqui */}
+                            <img className="imgheader" src={post.profileImage} alt={post.user} /> 
                             <p>{post.user}</p>
                         </div>
                         <FiMoreHorizontal />
@@ -97,3 +97,5 @@ export function Post() {
         </>
     );
 }
+
+//git
